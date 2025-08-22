@@ -1,0 +1,21 @@
+.container{
+  display: grid;
+  grid-template: 100px auto 100px;
+  grid-template-areas: "header header" "sidebar main" "footer footer";
+  border: 5px solid dodgerblue;
+  row-gap: 10px;
+  column-gap: 10px;
+  
+  height: 100vh;
+}
+
+.box{
+  background-color: rgba(216, 206, 206, 0.173);
+}
+
+.p{
+   text-align: right;
+}
+
+
+    
